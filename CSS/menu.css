@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+body
+{
+	min-height: 1000px;
+	background-color: lightgray;
+}
+p
+{
+	font-weight:500;
+	color:#fff;
+}
+header
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:20px 100px;
+	z-index:10000;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	transition:0.5s;
+	
+
+}
+header .logo
+{
+	color:#fff;
+	font-weight:700;
+	font-size:2em;
+	text-decoration:none;
+}
+
+header .logo span 
+{
+	color:#ff0157;
+}
+header .navigation
+{
+	position:relative;
+	display:flex;
+}
+header .navigation li 
+{
+	list-style:none;
+	margin-left:30px;
+}
+header .navigation li a 
+{
+	text-decoration:none;
+	color:#111;
+	font-weight:300;
+}
+
+header .navigation li a:hover
+{
+	color:#fff;
+}
+ img
+{
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+}	
+.TitleText
+{
+	color: #fff;
+	font-size: 2.5em;
+	font-weight: 300;
+}
+.TitleText span 
+{
+	color: #ff0157;
+	font-weight: 700;
+	font-size: 2.5em;
+}
+.titleText1
+{
+	color: #fff;
+	font-size: 2.5em;
+	font-weight: 300;
+}
+.titleText1 span 
+{
+	color: #ff0157;
+	font-weight: 500;
+	font-size: 1.5em;
+}
+
+.title
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 50px;
+    padding-bottom: 96px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    
+}
+.menu .content 
+{
+	display: flex;
+	justify-content: center;
+	flex-direction:row-reverse;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.menu .content .box 
+{
+	width: 340px;
+	margin: 20px;
+	box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+.menu .content .box:hover
+{
+	border: 3px solid #111;
+}
+.menu .content .box .img8x 
+{
+	position: relative;
+	width: 100%;
+	height: 300px;
+
+}
+.menu .content .box .img8x img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+h3
+{
+	color: #ff0157;
+	justify-content: center;
+	text-align: center;
+}
+h2
+{
+	color: #ff0157;
+	text-align: center;
+	font-weight: 700;
+	font-size: 5em;
+
+}
+.titleText1  
+{
+	color: #111;
+	text-align: center;
+	font-weight: 100;
+	font-size: 3em;
+}
+.titleText3 span 
+{
+	color: #ff0157;
+}
+.text
+{
+	color: #111;
+	font-weight: 100;
+	text-align: center;
+	font-size: 1.3em;
+}
+.text1
+{
+	color: #111;
+	text-align: center;
+	font-size:2em ;
+}
+
